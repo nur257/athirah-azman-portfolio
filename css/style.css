@@ -2099,14 +2099,14 @@ span.error {
 
 /* ====== Visit Links hover ====== */
 
-.detail-v1 .detail-val a {
-  color: #ffffff; /* white default */
+.col-md-12 .detail-v1 .detail-val a {
+  color: #ffffff !important;   /* force white */
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
-.detail-v1 .detail-val a:hover {
-  color: #ff0000; /* red on hover */
+.col-md-12 .detail-v1 .detail-val a:hover {
+  color: #ff0000 !important;   /* force red */
 }
+
 
 
