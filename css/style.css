@@ -2096,13 +2096,16 @@ span.error {
   margin-bottom: 10px;
 }
 
+
+/* ====== Visit Links hover ====== */
+
 .detail-v1 .detail-val a {
-  color: #000; /* normal link color */
+  color: #fff; /* normal text white */
   text-decoration: none; /* remove underline */
   transition: color 0.3s ease;
 }
 
 .detail-v1 .detail-val a:hover {
-  color: #888; /* grey on hover */
+  color:  #E4643F; /* red on hover */
 }
 
