@@ -2100,12 +2100,13 @@ span.error {
 /* ====== Visit Links hover ====== */
 
 .detail-v1 .detail-val a {
-  color: #fff; /* normal text white */
-  text-decoration: none; /* remove underline */
+  color: #ffffff; /* white default */
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .detail-v1 .detail-val a:hover {
-  color:  #E4643F; /* red on hover */
+  color: #ff0000; /* red on hover */
 }
+
 
