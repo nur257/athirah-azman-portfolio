@@ -2095,3 +2095,14 @@ span.error {
 .gsap-reveal-img .reveal-wrap .reveal-content .portfolio-item-content h3 {
   margin-bottom: 10px;
 }
+
+.detail-v1 .detail-val a {
+  color: #000; /* normal link color */
+  text-decoration: none; /* remove underline */
+  transition: color 0.3s ease;
+}
+
+.detail-v1 .detail-val a:hover {
+  color: #888; /* grey on hover */
+}
+
