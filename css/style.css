@@ -567,61 +567,37 @@ a, a:hover {
   transform: translateX(0%);
 }
 
-.unslate_co--site-mobile-menu .close-wrap {
-  margin-right: 20px;
-  position: relative;
-}
+.unslate_co--site-mobile-menu .close-wrap { 
+margin-right: 20px; position: relative; 
+} 
 
-.unslate_co--site-mobile-menu .close-wrap a {
-  margin-right: 15px;
-}
+.unslate_co--site-mobile-menu .close-wrap a { 
+margin-right: 15px; 
+} 
 
-/* ❌ REMOVE this old hover
 .unslate_co--site-mobile-menu .close-wrap a:hover {
-  opacity: .5;
-}
-*/
+ opacity: .5; 
+} 
 
-.unslate_co--site-mobile-menu .close-wrap a .close-label {
-  margin-right: 20px;
-  color: #fff; /* white text by default */
-}
+.unslate_co--site-mobile-menu .close-wrap a .close-label { 
+margin-right: 20px; color: #fff; 
+} 
 
-.unslate_co--site-mobile-menu .close-wrap a .close-times {
-  position: relative;
-  margin-top: 4px;
-  right: 0;
-}
+.unslate_co--site-mobile-menu .close-wrap a .close-times { 
+position: relative; margin-top: 4px; right: 0; 
+} 
 
-.unslate_co--site-mobile-menu .close-wrap a .close-times .bar1,
-.unslate_co--site-mobile-menu .close-wrap a .close-times .bar2 {
-  width: 2px;
-  height: 20px;
-  background: #fff; /* changed from black (#000) to white */
-  position: absolute;
-}
+.unslate_co--site-mobile-menu .close-wrap a .close-times .bar1, .unslate_co--site-mobile-menu .close-wrap a .close-times .bar2 { 
+width: 2px; height: 20px; background: #000; position: absolute; 
+} 
 
-.unslate_co--site-mobile-menu .close-wrap a .close-times .bar1 {
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
+.unslate_co--site-mobile-menu .close-wrap a .close-times .bar1 { 
+-webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); 
+} 
 
-.unslate_co--site-mobile-menu .close-wrap a .close-times .bar2 {
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+.unslate_co--site-mobile-menu .close-wrap a .close-times .bar2 { 
+-webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); 
 }
-
-/* ✅ New hover effect: both text + bars turn red */
-.unslate_co--site-mobile-menu .close-wrap a:hover .close-label,
-.unslate_co--site-mobile-menu .close-wrap a:hover .close-times .bar1,
-.unslate_co--site-mobile-menu .close-wrap a:hover .close-times .bar2 {
-  color: #ff0000;       /* label turns red */
-  background: #ff0000;  /* bars turn red */
-  transition: all 0.3s ease;
-}
-
 
 .unslate_co--site-mobile-menu ul, .unslate_co--site-mobile-menu ul li {
   padding: 0;
